@@ -1,11 +1,9 @@
-# 📱 Projeto POO - Modelagem e Diagramação de um iPhone
+# Projeto POO - Modelagem e Diagramação de um iPhone
 
-Este projeto foi desenvolvido como parte do desafio de POO da DIO.  
-O objetivo é modelar, diagramar e implementar as funcionalidades principais do iPhone, conforme o vídeo de lançamento de 2007.
+Este projeto foi desenvolvido como parte do desafio de POO da DIO.
+O objetivo é modelar, diagramar e implementar as funcionalidades principais do iPhone.
 
----
-
-## 🛠 Funcionalidades
+## Funcionalidades
 
 ### Reprodutor Musical
 - `tocar()`
@@ -22,9 +20,7 @@ O objetivo é modelar, diagramar e implementar as funcionalidades principais do 
 - `adicionarNovaAba()`
 - `atualizarPagina()`
 
----
-
-## 📊 Diagrama UML
+## Diagrama UML (Mermaid)
 
 ```mermaid
 classDiagram
@@ -52,5 +48,28 @@ classDiagram
     iPhone ..|> ReprodutorMusical
     iPhone ..|> AparelhoTelefonico
     iPhone ..|> NavegadorInternet
-    
- More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+
+## Como executar
+
+```bash
+cd src
+javac *.java
+java Main
+```
+
+## Exemplo de Saída
+
+```
+Selecionando música: Imagine - John Lennon
+Tocando música...
+Música pausada.
+------------------------
+Ligando para: 11987654321
+Atendendo chamada...
+Iniciando correio de voz...
+------------------------
+Exibindo página: https://dio.me
+Nova aba aberta.
+Página atualizada.
+```
