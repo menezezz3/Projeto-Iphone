@@ -20,7 +20,7 @@ O objetivo é modelar, diagramar e implementar as funcionalidades principais do 
 - `adicionarNovaAba()`
 - `atualizarPagina()`
 
-## Diagrama UML (Mermaid)
+## Diagrama UML 
 
 ```mermaid
 classDiagram
